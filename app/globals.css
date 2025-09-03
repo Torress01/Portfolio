@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-zinc-900 text-gray-100;
+  }
+}
+
+.container {
+  @apply mx-auto w-full max-w-[1200px] px-6;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #374151;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f59e0b;
+  border-radius: 14px;
+}
