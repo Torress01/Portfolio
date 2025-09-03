@@ -1,4 +1,3 @@
-import HighlightedProjects from "./components/pages/home/highlighted-projects";
 import HeroSection from "./components/pages/home/hero-section";
 import KnownTechs from "./components/pages/home/know-techs";
 import WorkExperience from "./components/pages/home/work-experience";
@@ -8,10 +7,9 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <KnownTechs />
       <WorkExperience />
       <SchoolHistory />
-      <KnownTechs />
-      <HighlightedProjects />
     </>
   );
 }

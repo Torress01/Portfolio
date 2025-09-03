@@ -18,7 +18,7 @@ const plexMono = IBM_Plex_Mono({
 export const metadata = {
   title: "Meu Portfólio",
   icons: {
-    icon: "/images/logo.png",
+    icon: "/images/logo2.png",
   },
 };
 

@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
       "lh6.googleusercontent.com",
       "www.feg.unesp.br",
       "i1.sndcdn.com",
+      "media.licdn.com",
     ],
   },
 };

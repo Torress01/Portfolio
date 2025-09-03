@@ -9,7 +9,7 @@ const ExperienceItem = () => {
         <div className="flex items-center flex-col gap-4">
           <div className="rounded-full border border-gray-500 p-0.5">
             <Image
-              src="https://lh6.googleusercontent.com/4xxWI6bLG96QGnN-PsCyXLfXcgXcl46w3g7QaxF1o5OJxqi_tu4VTeEhtG5LxrDGm9UXjCePlp4UeImDknNtfAnqkPVmMKUaa2aiY_D9D-njNettLwXcmJhLfH8B90VKMuemqQwXI4wgcA"
+              src="https://media.licdn.com/dms/image/v2/C4D0BAQFd3kvoWeHHHw/company-logo_200_200/company-logo_200_200/0/1630562110395/multittechengenharia_logo?e=2147483647&v=beta&t=KV6NIcARZWU4vgVz9ybtgsYD1qwzh5GgFSwRMEsQbiI"
               width={40}
               height={40}
               className="rounded-full"

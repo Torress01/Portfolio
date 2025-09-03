@@ -1,9 +1,8 @@
 import React from "react";
 import ProjectCard from "./project-card";
-import Link from "../../../link";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import HorizontalDivider from "../../../divider/horizontal";
 import { SectionTitle } from "../../../section-title";
+import ProjectCard2 from "./project-card/index2";
 
 const HighlightedProjects = () => {
   return (
@@ -14,15 +13,8 @@ const HighlightedProjects = () => {
       <div>
         <ProjectCard />
         <HorizontalDivider />
-        <ProjectCard />
+        <ProjectCard2 />
         <HorizontalDivider />
-
-        <p className="flex items-center gap-1.5">
-          <span className="text-gray-400">Se interessou?</span>
-          <Link href="/projects" className="inline-flex">
-            Ver todos <HiArrowNarrowRight />
-          </Link>
-        </p>
       </div>
     </section>
   );

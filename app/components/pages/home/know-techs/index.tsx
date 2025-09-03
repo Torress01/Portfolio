@@ -4,7 +4,7 @@ import TechBadge from "../../../tech-badge";
 
 const KnownTechs = () => {
   return (
-    <section className="container py-8">
+    <section id="competencias" className="container py-12 ">
       <SectionTitle
         subtitle="competências"
         title="Conhecimentos e Interesses"
@@ -79,10 +79,6 @@ const KnownTechs = () => {
             className="text-amber-400 bg-amber-900/80 hover:bg-amber-900/100 "
             name="Cypress"
           />
-          <TechBadge
-            className="text-amber-400 bg-amber-900/80 hover:bg-amber-900/100 "
-            name="Pytest"
-          />
         </div>
         <div className="mt-5">
           <div className="flex items-center space-x-2">
@@ -105,6 +101,10 @@ const KnownTechs = () => {
             <TechBadge
               className="text-amber-400 bg-amber-900/80 hover:bg-amber-900/100"
               name="Docker"
+            />
+            <TechBadge
+              className="text-amber-400 bg-amber-900/80 hover:bg-amber-900/100"
+              name="Github Actions"
             />
           </div>
         </div>
