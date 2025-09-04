@@ -46,7 +46,7 @@ const ContactForm = () => {
           title="Vamos trabalhar juntos? Entre em contato"
           className="items-center text-center"
         />
-        <div className="text-7xl text-gray-600 flex justify-center items-center h-20 gap-3 mt-5">
+        <div className="text-7xl text-gray-200 flex justify-center items-center h-20 gap-3 mt-5">
           {MOCK_CONTACTS.map((contact, index) => (
             <a
               href={contact.url}

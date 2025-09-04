@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Button from "../../../button";
-import { HiArrowNarrowRight, HiNewspaper } from "react-icons/hi";
+import { HiNewspaper } from "react-icons/hi";
 import {
   TbBrandGithub,
   TbBrandLinkedin,
@@ -25,7 +24,10 @@ const MOCK_CONTACTS = [
 
 const HeroSection = () => {
   return (
-    <section id="sobre" className="w-full lg:h-[755px] flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px]">
+    <section
+      id="sobre"
+      className="w-full lg:h-[755px] flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px]"
+    >
       <div className="container flex items-start justify-between flex-col-reverse lg:flex-row">
         <div className="w-full lg:max-w-[530px]">
           <h1 className="text-4xl  font-medium mt-2">Vitor Torres</h1>
@@ -46,20 +48,15 @@ const HeroSection = () => {
           <div>
             <a
               href="/curriculo.pdf"
-              download
+              target="_blank"
               className="bg-amber-600 py-3 px-4 rounded-lg text-gray-50 flex items-center justify-center gap-2 hover:bg-amber-500 transition-all disabled:opacity-50 cursor-pointer w-max"
             >
-              Baixe meu Currículo
+              Veja meu Currículo
               <HiNewspaper size={18} />
             </a>
           </div>
           <div className="mt-6 lg:mt-4 flex sm:items-center sm:gap-5 flex-col lg:flex-row">
-            <Button className="w-max shadow-button">
-              Entre em contato
-              <HiArrowNarrowRight size={18} />
-            </Button>
-
-            <div className="text-2xl text-gray-600 flex items-center h-20 gap-3">
+            <div className="text-5xl text-gray-300 flex items-center h-20 gap-3 ">
               {MOCK_CONTACTS.map((contact, index) => (
                 <a
                   href={contact.url}
